@@ -1,6 +1,6 @@
 # Friend/Contact management route
 
-## Friend management with rest api
+## 1. Friend management with rest api
 
 Request url exp: `${imServerUrl}/friend/get_friend_list`
 
@@ -52,6 +52,6 @@ Request url exp: `${imServerUrl}/friend/get_friend_list`
 - POST /get_full_friend_user_ids — full list of friend user IDs for client reconciliation, [req data](https://github.com/openimsdk/protocol/blob/main/relation/relation.proto#L253),
   [resp data](https://github.com/openimsdk/protocol/blob/main/relation/relation.proto#L258)
 
-## Friend management, listen sockets event
+## 2. Friend management, listen sockets event
 
 See socket example [here](https://docs.openim.io/sdks/listener/friendshipListener)
